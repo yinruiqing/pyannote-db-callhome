@@ -77,7 +77,7 @@ class SpeakerDiarization(SpeakerDiarizationProtocol):
                 # unique file identifier
                 'uri': uri,
                 # reference as pyannote.core.Annotation instance
-                'annotation': annotation
+                'annotation': annotation,
                 # annotated part as pyannote.core.Timeline instance
                 'annotated': annotation.get_timeline().extent()
             }
