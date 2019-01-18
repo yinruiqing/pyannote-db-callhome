@@ -71,6 +71,6 @@ setup(
     # replace MyDatabase by the name of your database (using CamelCase)
     entry_points="""
         [pyannote.database.databases]
-        CallHome=CallHome:Callhome
+        CallHome=CallHome:CallHome
     """
 )
